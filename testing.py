@@ -5,7 +5,7 @@ from summarizer import Summary
 
 
 def execute(ytube_id, percent):
-    print('********get transcript from url*******\n')
+    
     transcript = get_transcript_from_url(ytube_id)
     print(transcript)
     print('**********raw transcript***********\n')
