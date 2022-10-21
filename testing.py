@@ -10,7 +10,7 @@ def execute(ytube_id, percent):
     print(transcript)
     print('**********raw transcript***********\n')
     transcript_raw, word_list = parse_transcript(transcript)
-    print(transcript_raw)
+    
     transcript_raw = transcript_raw.replace('.', '*')
     print('**********word list***********\n')
     for word in word_list:
