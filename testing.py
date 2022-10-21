@@ -4,11 +4,11 @@ from punctuator import punctuate
 from summarizer import Summary
 
 
-def execute(ytube_id, percent):
+
     
     transcript = get_transcript_from_url(ytube_id)
     print(transcript)
-    print('**********raw transcript***********\n')
+    
     
     
     transcript_raw = transcript_raw.replace('.', '*')
